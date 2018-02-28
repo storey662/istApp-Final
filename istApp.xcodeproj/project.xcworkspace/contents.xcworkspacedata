@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/Assets">
+   </FileRef>
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/BTNavigationDropdownMenu.podspec">
+   </FileRef>
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/CHANGELOG.md">
+   </FileRef>
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/Demo">
+   </FileRef>
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/README.md">
+   </FileRef>
+   <FileRef
+      location = "group:../../BTNavigationDropdownMenu-master/Source">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
