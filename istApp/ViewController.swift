@@ -19,6 +19,5 @@ class ViewController: UIViewController {
     }
 
     @IBOutlet weak var openMenu: UIBarButtonItem!
-        leadingConstraint.constant = 0
 }
 
