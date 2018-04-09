@@ -398,7 +398,7 @@ nmlewis@nemcc.edu</string>
                                 <color key="backgroundColor" red="0.004176358260812911" green="0.008783462904008105" blue="0.36894834844559588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-KG-oFd">
-                                <rect key="frame" x="152" y="349" width="42" height="21"/>
+                                <rect key="frame" x="166" y="331" width="41" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
