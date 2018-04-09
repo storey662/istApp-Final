@@ -230,6 +230,22 @@
             <point key="canvasLocation" x="4740" y="-548"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="C7R-De-RlS">
+            <objects>
+                <viewController id="zrq-w5-N22" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t1I-X4-C1b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.79451775550000003" green="0.71685737370000002" blue="0.46782982350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="bD3-gJ-JxJ"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jy7-0r-1Iz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1516" y="261"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="WzD-wl-LmM">
             <objects>
                 <viewController id="1rL-Z2-XWG" sceneMemberID="viewController">
@@ -369,15 +385,27 @@ nmlewis@nemcc.edu</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Systems Admin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXu-0Z-cVp">
-                                <rect key="frame" x="86" y="64" width="202" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXu-0Z-cVp">
+                                <rect key="frame" x="49" y="64" width="283" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="b0J-aB-O5b">
+                                <rect key="frame" x="67" y="128" width="240" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.004176358260812911" green="0.008783462904008105" blue="0.36894834844559588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-KG-oFd">
+                                <rect key="frame" x="152" y="349" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.79451775550000003" green="0.71685737370000002" blue="0.46782982350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0041763582610000001" green="0.0087834629040000004" blue="0.36894834840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="F1g-BI-pUZ"/>
                     </view>
                 </viewController>
@@ -1011,5 +1039,6 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
     <resources>
         <image name="hamburgerVector" width="100" height="100"/>
         <image name="iPhone 8 Plus" width="375" height="667"/>
+        <image name="server1" width="318" height="159"/>
     </resources>
 </document>
