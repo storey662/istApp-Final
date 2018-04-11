@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
+    
     @IBOutlet weak var myWebView: UIWebView!
     
     
@@ -19,15 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getVideo(videoCode: "YkOzV7mZCWs")
-        
-    }
-    
-    func getVideo(videoCode:String)
-    {
-        let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
-        myWebView.loadRequest(URLRequest(url: url!))
     }
     
     @IBOutlet weak var openMenu: UIBarButtonItem!
 }
+
