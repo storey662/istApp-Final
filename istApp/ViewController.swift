@@ -11,9 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBOutlet weak var myWebView: UIWebView!
-    
-    
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
