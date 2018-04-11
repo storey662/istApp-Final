@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fAf-5g-WXN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fAf-5g-WXN">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="ArialItalic.ttf">
-            <string>Arial-ItalicMT</string>
-        </array>
-        <array key="BradleyHand-Bold.ttf">
-            <string>BradleyHandITCTT-Bold</string>
-        </array>
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -250,7 +240,7 @@
             <objects>
                 <viewController id="1rL-Z2-XWG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KK2-bI-DA9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1250"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8M-fE-FNb">
@@ -260,51 +250,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLF-qy-KCs">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1186"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="1936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asz-B6-NJq">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpy-DQ-0Y7">
-                                                <rect key="frame" x="92" y="1137" width="190" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                                <state key="normal" title="Did it work?"/>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nick Jackson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-YA-FJo">
-                                                <rect key="frame" x="106" y="219" width="162" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-wy-TeM">
-                                                <rect key="frame" x="70" y="250" width="234" height="82"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Instructor, Information Systems Technology
-Gordon Hall - (662) 720-7268
-nljackson@nemcc.edu</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dr. Natasha Lewis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pub-bX-oaw">
-                                                <rect key="frame" x="108" y="85" width="159" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy9-iw-E7T">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy9-iw-E7T">
                                                 <rect key="frame" x="151" y="8" width="72" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Qn-w3H">
-                                                <rect key="frame" x="68" y="116" width="238" height="85"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Qn-w3H">
+                                                <rect key="frame" x="68" y="128" width="238" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="y3z-4D-4GD"/>
+                                                </constraints>
                                                 <string key="text">Instructor, Information Systems Technology
 Gordon Hall - (662) 720-7303
 nmlewis@nemcc.edu</string>
@@ -312,39 +273,104 @@ nmlewis@nemcc.edu</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpy-DQ-0Y7">
+                                                <rect key="frame" x="92" y="1899" width="190" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="2FZ-G5-FXy"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                                <state key="normal" title="Did it work?"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advisors &amp; Contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTB-23-m0q">
+                                                <rect key="frame" x="83" y="61" width="208" height="28"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-wy-TeM">
+                                                <rect key="frame" x="70" y="252" width="234" height="82"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="82" id="xPM-Co-axi"/>
+                                                </constraints>
+                                                <string key="text">Instructor, Information Systems Technology
+Gordon Hall - (662) 720-7268
+nljackson@nemcc.edu</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nick Jackson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-YA-FJo">
+                                                <rect key="frame" x="105" y="221" width="162" height="23"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="162" id="zee-RH-1SL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.79451775550000003" green="0.71685737370000002" blue="0.46782982350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1250" id="7t3-GL-lEx"/>
+                                            <constraint firstItem="KTB-23-m0q" firstAttribute="centerX" secondItem="Dy9-iw-E7T" secondAttribute="centerX" id="1xF-bx-9Lh"/>
+                                            <constraint firstItem="7UR-YA-FJo" firstAttribute="top" secondItem="P2r-Qn-w3H" secondAttribute="bottom" constant="8" symbolic="YES" id="6iC-0d-Du1"/>
+                                            <constraint firstAttribute="height" constant="2000" id="CIS-zL-fCy"/>
+                                            <constraint firstItem="Dy9-iw-E7T" firstAttribute="centerX" secondItem="Asz-B6-NJq" secondAttribute="centerX" id="Hqs-jK-SlL"/>
+                                            <constraint firstItem="7UR-YA-FJo" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="105" id="LIQ-Hd-OlY"/>
+                                            <constraint firstItem="P2r-Qn-w3H" firstAttribute="centerX" secondItem="KTB-23-m0q" secondAttribute="centerX" id="OLG-V4-EoA"/>
+                                            <constraint firstItem="Dgh-wy-TeM" firstAttribute="top" secondItem="7UR-YA-FJo" secondAttribute="bottom" constant="8" symbolic="YES" id="PQJ-Q2-K6K"/>
+                                            <constraint firstAttribute="bottom" secondItem="jpy-DQ-0Y7" secondAttribute="bottom" constant="71" id="Z7D-JC-9yC"/>
+                                            <constraint firstItem="Dgh-wy-TeM" firstAttribute="centerX" secondItem="P2r-Qn-w3H" secondAttribute="centerX" id="bVK-Lg-AlH"/>
+                                            <constraint firstItem="Dgh-wy-TeM" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="70" id="c7P-e8-AyX"/>
+                                            <constraint firstItem="P2r-Qn-w3H" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="68" id="cXM-Gu-nOV"/>
+                                            <constraint firstItem="P2r-Qn-w3H" firstAttribute="top" secondItem="KTB-23-m0q" secondAttribute="bottom" constant="39" id="fb2-UF-WTl"/>
+                                            <constraint firstItem="Dy9-iw-E7T" firstAttribute="top" secondItem="Asz-B6-NJq" secondAttribute="topMargin" id="jBQ-f3-8Bt"/>
+                                            <constraint firstItem="KTB-23-m0q" firstAttribute="top" secondItem="Dy9-iw-E7T" secondAttribute="bottom" constant="23" id="lN0-3L-cqb"/>
+                                            <constraint firstItem="Dgh-wy-TeM" firstAttribute="centerX" secondItem="jpy-DQ-0Y7" secondAttribute="centerX" id="tx7-AI-TKp"/>
                                         </constraints>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Natasha Lewis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pub-bX-oaw">
+                                        <rect key="frame" x="108" y="101" width="159" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About NEMCC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKV-OU-DXv">
+                                        <rect key="frame" x="108" y="367" width="155" height="28"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.95461076498031616" green="0.026673724874854088" blue="0.9247170090675354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Asz-B6-NJq" firstAttribute="top" secondItem="bLF-qy-KCs" secondAttribute="top" id="NZc-Km-LuU"/>
-                                    <constraint firstItem="Asz-B6-NJq" firstAttribute="leading" secondItem="bLF-qy-KCs" secondAttribute="leading" id="X3y-BW-l05"/>
-                                    <constraint firstAttribute="bottom" secondItem="Asz-B6-NJq" secondAttribute="bottom" constant="-64" id="cQB-4Z-lkB"/>
-                                    <constraint firstItem="Asz-B6-NJq" firstAttribute="centerX" secondItem="bLF-qy-KCs" secondAttribute="centerX" id="t4n-sS-gKl"/>
-                                    <constraint firstAttribute="trailing" secondItem="Asz-B6-NJq" secondAttribute="trailing" id="vAy-bU-YAi"/>
+                                    <constraint firstItem="Pub-bX-oaw" firstAttribute="top" secondItem="bLF-qy-KCs" secondAttribute="top" constant="101" id="41p-Nd-PPb"/>
+                                    <constraint firstItem="Pub-bX-oaw" firstAttribute="centerX" secondItem="Asz-B6-NJq" secondAttribute="centerX" id="Ic4-Ew-h5h"/>
+                                    <constraint firstItem="iKV-OU-DXv" firstAttribute="leading" secondItem="Pub-bX-oaw" secondAttribute="leading" id="JS2-tG-B5z"/>
+                                    <constraint firstItem="iKV-OU-DXv" firstAttribute="top" secondItem="bLF-qy-KCs" secondAttribute="top" constant="367" id="aIs-cB-OWv"/>
+                                    <constraint firstItem="Pub-bX-oaw" firstAttribute="centerX" secondItem="bLF-qy-KCs" secondAttribute="centerX" id="gv5-zI-vnj"/>
+                                    <constraint firstItem="Asz-B6-NJq" firstAttribute="leading" secondItem="bLF-qy-KCs" secondAttribute="leading" id="ioO-cc-EzT"/>
+                                    <constraint firstAttribute="bottom" secondItem="Asz-B6-NJq" secondAttribute="bottom" constant="-64" id="xBb-ON-cdo"/>
+                                    <constraint firstItem="Asz-B6-NJq" firstAttribute="top" secondItem="bLF-qy-KCs" secondAttribute="top" id="xsS-bO-clu"/>
+                                    <constraint firstAttribute="trailing" secondItem="Asz-B6-NJq" secondAttribute="trailing" id="z3q-Bc-JUM"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.79451775550000003" green="0.71685737370000002" blue="0.46782982350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="bLF-qy-KCs" secondAttribute="trailing" id="JLP-Uz-cmL"/>
-                            <constraint firstItem="bLF-qy-KCs" firstAttribute="top" secondItem="W8M-fE-FNb" secondAttribute="top" id="YSy-qn-Qa0"/>
-                            <constraint firstItem="bLF-qy-KCs" firstAttribute="top" secondItem="clr-Ve-YbG" secondAttribute="top" id="Yoi-00-cbY"/>
-                            <constraint firstItem="bLF-qy-KCs" firstAttribute="leading" secondItem="KK2-bI-DA9" secondAttribute="leading" id="lfz-26-K7T"/>
-                            <constraint firstItem="bLF-qy-KCs" firstAttribute="bottom" secondItem="clr-Ve-YbG" secondAttribute="bottom" id="m6O-1w-FJq"/>
-                            <constraint firstItem="bLF-qy-KCs" firstAttribute="centerX" secondItem="W8M-fE-FNb" secondAttribute="centerX" id="qyH-oo-cHC"/>
+                            <constraint firstItem="bLF-qy-KCs" firstAttribute="leading" secondItem="KK2-bI-DA9" secondAttribute="leading" id="bgn-PL-9oR"/>
+                            <constraint firstItem="bLF-qy-KCs" firstAttribute="bottom" secondItem="clr-Ve-YbG" secondAttribute="bottom" id="fCC-De-6Vr"/>
+                            <constraint firstItem="W8M-fE-FNb" firstAttribute="centerX" secondItem="bLF-qy-KCs" secondAttribute="centerX" id="i1Q-BO-HIf"/>
+                            <constraint firstItem="bLF-qy-KCs" firstAttribute="top" secondItem="clr-Ve-YbG" secondAttribute="top" id="kbR-Bd-SK0"/>
+                            <constraint firstItem="bLF-qy-KCs" firstAttribute="top" secondItem="W8M-fE-FNb" secondAttribute="top" id="txr-sp-qye"/>
+                            <constraint firstAttribute="trailing" secondItem="bLF-qy-KCs" secondAttribute="trailing" id="xmO-67-df8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="clr-Ve-YbG"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1250"/>
+                    <size key="freeformSize" width="375" height="2000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VdI-n2-Eyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2246" y="-287"/>
+            <point key="canvasLocation" x="2298" y="51"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="P3o-rZ-e45">
