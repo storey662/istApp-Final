@@ -255,13 +255,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Asz-B6-NJq">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy9-iw-E7T">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy9-iw-E7T">
                                                 <rect key="frame" x="151" y="8" width="72" height="30"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Qn-w3H">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Qn-w3H">
                                                 <rect key="frame" x="68" y="128" width="238" height="85"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="85" id="y3z-4D-4GD"/>
@@ -281,13 +281,13 @@ nmlewis@nemcc.edu</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                                 <state key="normal" title="Did it work?"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advisors &amp; Contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTB-23-m0q">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Advisors &amp; Contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTB-23-m0q">
                                                 <rect key="frame" x="83" y="61" width="208" height="28"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-wy-TeM">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-wy-TeM">
                                                 <rect key="frame" x="70" y="252" width="234" height="82"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="82" id="xPM-Co-axi"/>
@@ -299,12 +299,19 @@ nljackson@nemcc.edu</string>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nick Jackson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-YA-FJo">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Nick Jackson" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7UR-YA-FJo">
                                                 <rect key="frame" x="105" y="221" width="162" height="23"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="162" id="zee-RH-1SL"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6D0-9J-obL">
+                                                <rect key="frame" x="28" y="414" width="318" height="293"/>
+                                                <string key="text">Northeast Mississippi Community College is a public, comprehensive community college that exists to meet the educational and career needs of individual students and the community within the district it serves – Alcorn, Prentiss, Tippah, Tishomingo and Union Counties – by awarding the Associate of Arts Degree, Associate of Applied Science Degree and Certificates. Beyond this original scope, Northeast responds to the needs of all who seek a college education.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -315,17 +322,21 @@ nljackson@nemcc.edu</string>
                                             <constraint firstItem="7UR-YA-FJo" firstAttribute="top" secondItem="P2r-Qn-w3H" secondAttribute="bottom" constant="8" symbolic="YES" id="6iC-0d-Du1"/>
                                             <constraint firstAttribute="height" constant="2000" id="CIS-zL-fCy"/>
                                             <constraint firstItem="Dy9-iw-E7T" firstAttribute="centerX" secondItem="Asz-B6-NJq" secondAttribute="centerX" id="Hqs-jK-SlL"/>
+                                            <constraint firstItem="6D0-9J-obL" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="28" id="JuQ-ty-KgJ"/>
                                             <constraint firstItem="7UR-YA-FJo" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="105" id="LIQ-Hd-OlY"/>
                                             <constraint firstItem="P2r-Qn-w3H" firstAttribute="centerX" secondItem="KTB-23-m0q" secondAttribute="centerX" id="OLG-V4-EoA"/>
                                             <constraint firstItem="Dgh-wy-TeM" firstAttribute="top" secondItem="7UR-YA-FJo" secondAttribute="bottom" constant="8" symbolic="YES" id="PQJ-Q2-K6K"/>
+                                            <constraint firstItem="6D0-9J-obL" firstAttribute="top" secondItem="Dgh-wy-TeM" secondAttribute="bottom" constant="80" id="SiL-zR-lgm"/>
                                             <constraint firstAttribute="bottom" secondItem="jpy-DQ-0Y7" secondAttribute="bottom" constant="71" id="Z7D-JC-9yC"/>
                                             <constraint firstItem="Dgh-wy-TeM" firstAttribute="centerX" secondItem="P2r-Qn-w3H" secondAttribute="centerX" id="bVK-Lg-AlH"/>
                                             <constraint firstItem="Dgh-wy-TeM" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="70" id="c7P-e8-AyX"/>
                                             <constraint firstItem="P2r-Qn-w3H" firstAttribute="leading" secondItem="Asz-B6-NJq" secondAttribute="leading" constant="68" id="cXM-Gu-nOV"/>
+                                            <constraint firstItem="jpy-DQ-0Y7" firstAttribute="top" secondItem="6D0-9J-obL" secondAttribute="bottom" constant="1192" id="d6b-vw-sxg"/>
                                             <constraint firstItem="P2r-Qn-w3H" firstAttribute="top" secondItem="KTB-23-m0q" secondAttribute="bottom" constant="39" id="fb2-UF-WTl"/>
                                             <constraint firstItem="Dy9-iw-E7T" firstAttribute="top" secondItem="Asz-B6-NJq" secondAttribute="topMargin" id="jBQ-f3-8Bt"/>
                                             <constraint firstItem="KTB-23-m0q" firstAttribute="top" secondItem="Dy9-iw-E7T" secondAttribute="bottom" constant="23" id="lN0-3L-cqb"/>
                                             <constraint firstItem="Dgh-wy-TeM" firstAttribute="centerX" secondItem="jpy-DQ-0Y7" secondAttribute="centerX" id="tx7-AI-TKp"/>
+                                            <constraint firstAttribute="trailing" secondItem="6D0-9J-obL" secondAttribute="trailing" constant="29" id="vZj-Gz-KRe"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Natasha Lewis" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pub-bX-oaw">
@@ -370,7 +381,7 @@ nljackson@nemcc.edu</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VdI-n2-Eyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2298" y="51"/>
+            <point key="canvasLocation" x="2296.8000000000002" y="50.374812593703155"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="P3o-rZ-e45">
