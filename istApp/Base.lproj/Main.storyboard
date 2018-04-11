@@ -243,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jy7-0r-1Iz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1516" y="261"/>
+            <point key="canvasLocation" x="1510" y="778"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WzD-wl-LmM">
@@ -382,36 +382,96 @@ nmlewis@nemcc.edu</string>
             <objects>
                 <viewController id="VxH-gn-vgL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T9r-7z-TW6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXu-0Z-cVp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Systems Administration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXu-0Z-cVp">
                                 <rect key="frame" x="49" y="64" width="283" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="fZK-Qc-Aab"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="b0J-aB-O5b">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="server1" translatesAutoresizingMaskIntoConstraints="NO" id="b0J-aB-O5b">
                                 <rect key="frame" x="67" y="128" width="240" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.004176358260812911" green="0.008783462904008105" blue="0.36894834844559588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-KG-oFd">
-                                <rect key="frame" x="166" y="331" width="41" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Systems Administration?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWG-Lo-2lT">
+                                <rect key="frame" x="48" y="329" width="285" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="5qj-mt-t52"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhP-J6-tfT">
+                                <rect key="frame" x="67" y="360" width="240" height="244"/>
+                                <string key="text">A Systems Administrator is someone who is responsible for setting up and maintaining all of the computer systems that make a company's workflow possible. The main goal of an Administrator is to make sure that the uptime, resources, performance, and security of the systems they administer meet the needs of the users. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PjJ-MU-OHd">
+                                <rect key="frame" x="0.0" y="592" width="375" height="232"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="z9s-Fi-Wic"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Some responsibilities of a Systems Administrator may include:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yen-Qw-vCi">
+                                <rect key="frame" x="47" y="844" width="281" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ve3-NS-XVv">
+                                <rect key="frame" x="47" y="930" width="281" height="192"/>
+                                <string key="text">Installing and configuring new hardware, configuring user accounts on the system, identifying and fixing potentialm problems with the system, installing patches and updates to the system, making sure the network is running properly, securing the network and infrastructure, and any other responsibilities that ensure the running of a business environment.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0041763582610000001" green="0.0087834629040000004" blue="0.36894834840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b0J-aB-O5b" firstAttribute="leading" secondItem="F1g-BI-pUZ" secondAttribute="leading" constant="67" id="28l-fO-IP9"/>
+                            <constraint firstItem="F1g-BI-pUZ" firstAttribute="bottom" secondItem="AhP-J6-tfT" secondAttribute="bottom" constant="596" id="4hN-CN-prP"/>
+                            <constraint firstItem="Ve3-NS-XVv" firstAttribute="top" secondItem="Yen-Qw-vCi" secondAttribute="bottom" constant="17" id="5UH-qM-uu2"/>
+                            <constraint firstItem="F1g-BI-pUZ" firstAttribute="bottom" secondItem="Ve3-NS-XVv" secondAttribute="bottom" constant="78" id="7uj-OE-Dri"/>
+                            <constraint firstItem="F1g-BI-pUZ" firstAttribute="bottom" secondItem="QWG-Lo-2lT" secondAttribute="bottom" constant="848" id="7ym-vE-ZXz"/>
+                            <constraint firstItem="QWG-Lo-2lT" firstAttribute="leading" secondItem="F1g-BI-pUZ" secondAttribute="leading" constant="48" id="9q8-ho-xtT"/>
+                            <constraint firstItem="AhP-J6-tfT" firstAttribute="leading" secondItem="b0J-aB-O5b" secondAttribute="leading" id="F7x-tT-TlC"/>
+                            <constraint firstItem="IXu-0Z-cVp" firstAttribute="top" secondItem="F1g-BI-pUZ" secondAttribute="top" id="Ftg-7v-l7I"/>
+                            <constraint firstItem="F1g-BI-pUZ" firstAttribute="bottom" secondItem="PjJ-MU-OHd" secondAttribute="bottom" constant="376" id="IjK-jG-ORT"/>
+                            <constraint firstItem="F1g-BI-pUZ" firstAttribute="trailing" secondItem="QWG-Lo-2lT" secondAttribute="trailing" constant="42" id="JrH-D3-iQy"/>
+                            <constraint firstItem="PjJ-MU-OHd" firstAttribute="centerX" secondItem="AhP-J6-tfT" secondAttribute="centerX" id="RMM-eV-GEJ"/>
+                            <constraint firstItem="b0J-aB-O5b" firstAttribute="centerX" secondItem="T9r-7z-TW6" secondAttribute="centerX" id="Wis-le-Web"/>
+                            <constraint firstItem="Yen-Qw-vCi" firstAttribute="top" secondItem="PjJ-MU-OHd" secondAttribute="bottom" constant="20" id="Wp1-sq-OaD"/>
+                            <constraint firstItem="IXu-0Z-cVp" firstAttribute="centerX" secondItem="QWG-Lo-2lT" secondAttribute="centerX" id="X8z-hJ-C6P"/>
+                            <constraint firstItem="PjJ-MU-OHd" firstAttribute="leading" secondItem="T9r-7z-TW6" secondAttribute="leading" id="XmX-eX-Quo"/>
+                            <constraint firstItem="Yen-Qw-vCi" firstAttribute="leading" secondItem="F1g-BI-pUZ" secondAttribute="leading" constant="47" id="Zy2-KI-pqy"/>
+                            <constraint firstItem="Yen-Qw-vCi" firstAttribute="leading" secondItem="Ve3-NS-XVv" secondAttribute="leading" id="hRE-wE-lG1"/>
+                            <constraint firstItem="QWG-Lo-2lT" firstAttribute="top" secondItem="b0J-aB-O5b" secondAttribute="bottom" constant="26" id="lK9-Y9-qD4"/>
+                            <constraint firstItem="Yen-Qw-vCi" firstAttribute="centerX" secondItem="PjJ-MU-OHd" secondAttribute="centerX" id="qBl-ri-HPa"/>
+                            <constraint firstItem="b0J-aB-O5b" firstAttribute="top" secondItem="IXu-0Z-cVp" secondAttribute="bottom" constant="8" symbolic="YES" id="wZN-PG-Nqg"/>
+                            <constraint firstItem="IXu-0Z-cVp" firstAttribute="leading" secondItem="F1g-BI-pUZ" secondAttribute="leading" constant="49" id="xZV-9B-ehy"/>
+                            <constraint firstItem="F1g-BI-pUZ" firstAttribute="bottom" secondItem="Yen-Qw-vCi" secondAttribute="bottom" constant="287" id="yZa-IR-ZRf"/>
+                            <constraint firstItem="AhP-J6-tfT" firstAttribute="top" secondItem="QWG-Lo-2lT" secondAttribute="bottom" constant="8" symbolic="YES" id="zR8-oK-GAw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="F1g-BI-pUZ"/>
                     </view>
+                    <size key="freeformSize" width="375" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ajN-XI-joV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1516" y="-548.27586206896558"/>
+            <point key="canvasLocation" x="1494" y="-310"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Mq-YF-CSq">
