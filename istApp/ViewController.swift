@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
         myWebView.loadRequest(URLRequest(url: url!))
     }
-    
+   /*  begin code for hamburger button for slide menu */
     @IBOutlet weak var openMenu: UIBarButtonItem!
+    @IBAction func MenuButtonPressed(_ sender: UIBarButtonItem) {
+    }
 }
+
