@@ -478,10 +478,10 @@ In conclusion, IOS App Development tends to focus more on design, interfaces, an
                                                 <rect key="frame" x="24" y="1369" width="327" height="375"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">IOS Development is an exciting career full of change, expansion, and plenty of opportunity. One of the most stimulating aspects of being an IOS Developer is the constant need for adaptation and change. As technology changes, so must developers. 
+                                                <string key="text">IOS Development is an exciting career full of change, expansion, and plenty of opportunity. One of the most stimulating aspects of being an IOS Developer is the constant need for adaptation and change. As technology changes, so must developers. 
 
 The US Department of Labor projected a 24% increase (much faster than average) for Developers. CNNMoney stated Mobile Application Development to be one of the best jobs in American with a 10-year job growth of 19%. Forbes also listed Mobile Application Development among the top 14 tech skills in demand for 2018.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -872,24 +872,73 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
             <objects>
                 <viewController id="Him-pK-jyy" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="be5-8Q-0N3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Security" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUL-RE-CVQ">
-                                <rect key="frame" x="132" y="64" width="110" height="30"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="avV-bV-RUj">
+                                <rect key="frame" x="0.0" y="64" width="375" height="2436"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ruh-fN-GMU">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2528"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RB-zu-emS">
+                                                <rect key="frame" x="73" y="29" width="229" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Interested in Cyber Security?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYi-j3-wpm">
+                                                <rect key="frame" x="61" y="242" width="252" height="32"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCK-bs-Yos">
+                                                <rect key="frame" x="31" y="282" width="312" height="205"/>
+                                                <string key="text">The Cyber Defense concentration focuses on network security And digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber Attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5c-ap-K29">
+                                                <rect key="frame" x="112" y="495" width="151" height="67"/>
+                                                <state key="normal" title="Button" image="video1"/>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="wf6-iH-IJv">
+                                                <rect key="frame" x="67" y="97" width="240" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.38118245470000001" green="0.45100336470000002" blue="0.507367228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="FCK-bs-Yos" firstAttribute="top" secondItem="PYi-j3-wpm" secondAttribute="bottom" constant="8" id="1HF-ZB-6ms"/>
+                                            <constraint firstAttribute="trailing" secondItem="4RB-zu-emS" secondAttribute="trailing" constant="73" id="8FZ-Xt-ai0"/>
+                                            <constraint firstItem="PYi-j3-wpm" firstAttribute="top" secondItem="wf6-iH-IJv" secondAttribute="bottom" constant="17" id="L58-sE-ugy"/>
+                                            <constraint firstAttribute="trailing" secondItem="wf6-iH-IJv" secondAttribute="trailing" constant="68" id="QdN-bc-6QQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="A5c-ap-K29" secondAttribute="trailing" constant="112" id="Syx-s3-WmW"/>
+                                            <constraint firstItem="4RB-zu-emS" firstAttribute="top" secondItem="Ruh-fN-GMU" secondAttribute="top" constant="29" id="Ukd-cB-zE0"/>
+                                            <constraint firstItem="PYi-j3-wpm" firstAttribute="leading" secondItem="Ruh-fN-GMU" secondAttribute="leading" constant="61" id="VVx-Fs-6YE"/>
+                                            <constraint firstItem="wf6-iH-IJv" firstAttribute="leading" secondItem="Ruh-fN-GMU" secondAttribute="leading" constant="67" id="Whs-Eq-x10"/>
+                                            <constraint firstItem="FCK-bs-Yos" firstAttribute="leading" secondItem="Ruh-fN-GMU" secondAttribute="leading" constant="31" id="YeJ-QH-gxw"/>
+                                            <constraint firstItem="4RB-zu-emS" firstAttribute="leading" secondItem="Ruh-fN-GMU" secondAttribute="leading" constant="73" id="aMC-Fe-pV3"/>
+                                            <constraint firstAttribute="trailing" secondItem="PYi-j3-wpm" secondAttribute="trailing" constant="62" id="aN8-j1-qcL"/>
+                                            <constraint firstItem="A5c-ap-K29" firstAttribute="leading" secondItem="Ruh-fN-GMU" secondAttribute="leading" constant="112" id="dzu-Si-0Z0"/>
+                                            <constraint firstItem="wf6-iH-IJv" firstAttribute="top" secondItem="4RB-zu-emS" secondAttribute="bottom" constant="31" id="gJ3-LO-VK0"/>
+                                            <constraint firstItem="A5c-ap-K29" firstAttribute="top" secondItem="FCK-bs-Yos" secondAttribute="bottom" constant="8" id="pPc-dZ-gdf"/>
+                                            <constraint firstAttribute="trailing" secondItem="FCK-bs-Yos" secondAttribute="trailing" constant="32" id="ps2-Ou-zGK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.79451775550000003" green="0.71685737370000002" blue="0.46782982350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="8Ks-hi-CbU"/>
                     </view>
+                    <size key="freeformSize" width="375" height="2500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Mk-x9-PFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="737" y="-548"/>
+            <point key="canvasLocation" x="868" y="-548.7256371814093"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="W9D-KI-3QE">
@@ -1044,11 +1093,13 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
     </scenes>
     <resources>
         <image name="apple" width="2250" height="1500"/>
+        <image name="cybersecurity-rules-linkedin" width="720" height="438"/>
         <image name="hamburgerVector" width="100" height="100"/>
         <image name="iPhone 8 Plus" width="375" height="667"/>
         <image name="imac" width="2250" height="1500"/>
         <image name="instagram" width="2000" height="1500"/>
         <image name="programming" width="2001" height="1500"/>
         <image name="server1" width="318" height="159"/>
+        <image name="video1" width="850" height="441"/>
     </resources>
 </document>
