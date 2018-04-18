@@ -875,38 +875,49 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="avV-bV-RUj">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avV-bV-RUj">
                                 <rect key="frame" x="0.0" y="64" width="375" height="2436"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ruh-fN-GMU">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ruh-fN-GMU">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2528"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RB-zu-emS">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cyber Security" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RB-zu-emS">
                                                 <rect key="frame" x="73" y="29" width="229" height="37"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Interested in Cyber Security?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYi-j3-wpm">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interested in Cyber Security?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYi-j3-wpm">
                                                 <rect key="frame" x="61" y="242" width="252" height="32"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="32" id="9O8-Cb-Cl5"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCK-bs-Yos">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCK-bs-Yos">
                                                 <rect key="frame" x="31" y="282" width="312" height="205"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="205" id="Wn9-o9-8rZ"/>
+                                                </constraints>
                                                 <string key="text">The Cyber Defense concentration focuses on network security And digital forensics. In the cybersecurity and privacy program, students will learn how to thwart cyber Attacks and how to design privacy and security compliant systems to protect computer systems and sensitive data.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5c-ap-K29">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5c-ap-K29">
                                                 <rect key="frame" x="112" y="495" width="151" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="67" id="aU5-p8-0rF"/>
+                                                </constraints>
                                                 <state key="normal" title="Button" image="video1"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="wf6-iH-IJv">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cybersecurity-rules-linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="wf6-iH-IJv">
                                                 <rect key="frame" x="67" y="97" width="240" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="nLw-ui-qyL"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.38118245470000001" green="0.45100336470000002" blue="0.507367228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -915,6 +926,7 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
                                             <constraint firstAttribute="trailing" secondItem="4RB-zu-emS" secondAttribute="trailing" constant="73" id="8FZ-Xt-ai0"/>
                                             <constraint firstItem="PYi-j3-wpm" firstAttribute="top" secondItem="wf6-iH-IJv" secondAttribute="bottom" constant="17" id="L58-sE-ugy"/>
                                             <constraint firstAttribute="trailing" secondItem="wf6-iH-IJv" secondAttribute="trailing" constant="68" id="QdN-bc-6QQ"/>
+                                            <constraint firstAttribute="height" constant="2528" id="RmT-YR-jxd"/>
                                             <constraint firstAttribute="trailing" secondItem="A5c-ap-K29" secondAttribute="trailing" constant="112" id="Syx-s3-WmW"/>
                                             <constraint firstItem="4RB-zu-emS" firstAttribute="top" secondItem="Ruh-fN-GMU" secondAttribute="top" constant="29" id="Ukd-cB-zE0"/>
                                             <constraint firstItem="PYi-j3-wpm" firstAttribute="leading" secondItem="Ruh-fN-GMU" secondAttribute="leading" constant="61" id="VVx-Fs-6YE"/>
@@ -929,9 +941,22 @@ These classes include but are not limited to, C# Programming, Swift, Fundamental
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ruh-fN-GMU" firstAttribute="centerX" secondItem="avV-bV-RUj" secondAttribute="centerX" id="3Za-vp-IvT"/>
+                                    <constraint firstItem="Ruh-fN-GMU" firstAttribute="top" secondItem="avV-bV-RUj" secondAttribute="top" id="Kpd-po-d6I"/>
+                                    <constraint firstItem="Ruh-fN-GMU" firstAttribute="leading" secondItem="avV-bV-RUj" secondAttribute="leading" id="qNu-SB-2TS"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ruh-fN-GMU" secondAttribute="trailing" id="wXv-Si-cpX"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ruh-fN-GMU" secondAttribute="bottom" constant="-92" id="wsB-jx-pp3"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="avV-bV-RUj" secondAttribute="trailing" id="Nb4-p9-pWy"/>
+                            <constraint firstItem="avV-bV-RUj" firstAttribute="leading" secondItem="be5-8Q-0N3" secondAttribute="leading" id="QEz-xC-MNh"/>
+                            <constraint firstItem="avV-bV-RUj" firstAttribute="bottom" secondItem="8Ks-hi-CbU" secondAttribute="bottom" id="ZDc-JL-27R"/>
+                            <constraint firstItem="avV-bV-RUj" firstAttribute="top" secondItem="8Ks-hi-CbU" secondAttribute="top" id="emW-M2-TwB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8Ks-hi-CbU"/>
                     </view>
                     <size key="freeformSize" width="375" height="2500"/>
